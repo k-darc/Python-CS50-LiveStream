@@ -1,3 +1,4 @@
+#use Speller, otherwise it won't run
 worlds = set()
 
 def check(word):
@@ -10,3 +11,6 @@ def load(dictionary):
 
 def size():
     return  len(words)
+
+def unload(): # upload isn't needed in Python. Python manages memory for you, there is no Malloc, freeing or pointers
+    return True
