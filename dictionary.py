@@ -1,4 +1,4 @@
-#use Speller, otherwise it won't run, python speller.py holmes.txt form Lecture 5.
+#use Speller, otherwise it won't run, python speller.py holmes.txt form Lecture 5. Total time is about 1.90 seconds in Python.
 worlds = set()
 
 def check(word):
@@ -14,3 +14,5 @@ def size():
 
 def unload(): # upload isn't needed in Python. Python manages memory for you, there is no Malloc, freeing or pointers
     return True
+
+# Total in C is about 0.42 seconds.
