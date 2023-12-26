@@ -2,7 +2,7 @@
 worlds = set()
 
 def check(word):
-    return word.lower() in worlds
+    return word.lower() in words
 
 def load(dictionary):
     with open(dictionary) as file:
